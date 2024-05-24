@@ -8,7 +8,7 @@ vector<int> valid(const string& expression){
      vector<int>ans(expression.length(),-1);
      for(int i=0;i<expression.length();i++){
         char ch=expression[i];
-        //if opening bracket stack push else if closing bracket then check top of stack and pop.
+        //if opening bracket stack push indexex else if closing bracket then check top of stack and pop.
       if(ch=='('){
         s.push(i);
       }
