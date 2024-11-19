@@ -1,0 +1,1 @@
+//n and n-1 xor lo

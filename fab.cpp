@@ -13,7 +13,7 @@ int main() {
   int n;
   cin>>n;
 
-  cout<<fab(n);
+  cout<<"fabonacci of "<<n<<"is:"<<fab(n);
 
   return 0;
 
