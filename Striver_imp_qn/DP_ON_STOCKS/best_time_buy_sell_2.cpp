@@ -91,3 +91,8 @@ int main(){
 }
 
 //Explain space optimization code using variables not in case of vectors
+
+//For best time to buy and sell stock with transaction fee => just subtract fee selling stock.
+//  else{
+//     profit=max(prices[i]+prev[1]-fee,0+prev[0]); //only that much change
+//   }
